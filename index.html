@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 
 	<!-- Title -->
-	<title>PrankTEXT - Mobile app landing page.</title>
+	<title>TheWatchBible - Banner Style </title>
 
 	<!-- All CSS here -->
 	<link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -17,39 +17,146 @@
 <body>
 
 	<!-- hero section -->
-	<section id="home" class="sec banner-sec" style="background-image: url(./assets/images/hero-bg.jpeg);">
+	<section id="tab1" class="section banner-sec">
 		<div class="container">
-			<div class="row gutter-30 justify-content-between align-items-center">
+			<div class="row gutter-30 justify-content-between">
 				
-				<div class="col-md-6">
+				<div class="col-md-7">
 					<div class="banner-content text-center text-md-start">
-						<h1 class="banner-title">Prank your friends 100% confidential <br> &amp; private</h1>
-						<p class="leading">
-							Send 50+ text message pranks to your friends - including Cat Facts, Donald Trump Quotes, Secret Admirer Pranks, and more!
-						</p>
-						<ul class="banner-btn-wrap justify-content-center justify-content-md-start">
-							<li>
-								<a href="#">
-									<img src="./assets/images/google-play.png" alt="google-play">
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<img src="./assets/images/app-store.png" alt="app-store">
-								</a>
-							</li>
-						</ul>
+						<h1 class="banner-title">Lorem ipsum dolor amet</h1>
 					</div>
 				</div> <!-- ./col -->
-				<div class="col-md-6 order-md-last">
+				<div class="col-md-4 order-md-last">
 					<div class="banner-image">
-						<img src="./assets/images/banner-mobile.png" alt="Mobile">
-						<a id="play-video" class="video-popup video-play-button" href="https://www.youtube.com/watch?v=HWr0iTMf8Js">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
-						</a>						  
+						<img src="./assets/images/banner-watch-2.png" alt="TheWatchBible">
+						<div class="animate-cap">
+							<h2>Rolex</h2>
+						</div>
 					</div>
 				</div> <!-- ./col -->
 			</div> <!-- ./row -->
+			<div class="row">
+				<div class="col-md-12">
+					<div class="banner-tab">
+						<ul class="nav nav-tabs" id="myTab" role="tablist">
+							<li class="nav-item" role="presentation">
+							  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Cerca Il Tuo Orologio</button>
+							</li>
+							<li class="nav-item" role="presentation">
+							  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Esplora</button>
+							</li>
+						</ul>
+						<div class="tab-wrapper">
+							<div class="tab-content" id="myTabContent">
+								<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+									<div class="row">
+										<div class="col-md-8">
+											<form class="banner-form" action="" method="post">
+												<div class="form-input">
+													<input class="form-control input-f" type="text" placeholder="Scrivi qui la tua ricerca" />
+													<button type="submit" class="form-btn"> 
+														<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M15.6934 13.8184H14.7059L14.3559 13.4809C15.5809 12.0559 16.3184 10.2059 16.3184 8.19336C16.3184 3.70586 12.6809 0.0683594 8.19336 0.0683594C3.70586 0.0683594 0.0683594 3.70586 0.0683594 8.19336C0.0683594 12.6809 3.70586 16.3184 8.19336 16.3184C10.2059 16.3184 12.0559 15.5809 13.4809 14.3559L13.8184 14.7059V15.6934L20.0684 21.9309L21.9309 20.0684L15.6934 13.8184ZM8.19336 13.8184C5.08086 13.8184 2.56836 11.3059 2.56836 8.19336C2.56836 5.08086 5.08086 2.56836 8.19336 2.56836C11.3059 2.56836 13.8184 5.08086 13.8184 8.19336C13.8184 11.3059 11.3059 13.8184 8.19336 13.8184Z" fill="white"/>
+														</svg>
+														Cerca
+													</button>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+									<div class="banner-form">
+										<form class="row g-0">
+											<div class="col-sm-6 col-md-4">
+												<div class="form-group">
+													<select class="form-select input-f input-select">
+														<option selected>Label</option>
+														<option>Label Option 1</option>
+														<option>Label Option 2</option>
+														<option>Label Option 3</option>
+														<option>Label Option 4</option>
+														<option>Label Option 5</option>
+													</select>
+												</div>
+											</div><!-- ./col -->
+											<div class="col-sm-6 col-md-4">
+												<div class="form-group">
+													<select class="form-select input-f input-select">
+														<option selected>Label</option>
+														<option>Label Option 1</option>
+														<option>Label Option 2</option>
+														<option>Label Option 3</option>
+														<option>Label Option 4</option>
+														<option>Label Option 5</option>
+													</select>
+												</div>
+											</div><!-- ./col -->
+											<div class="col-sm-6 col-md-4">
+												<div class="form-group">
+													<select class="form-select input-f input-select">
+														<option selected>Label</option>
+														<option>Label Option 1</option>
+														<option>Label Option 2</option>
+														<option>Label Option 3</option>
+														<option>Label Option 4</option>
+														<option>Label Option 5</option>
+													</select>
+												</div>
+											</div><!-- ./col -->
+											<div class="col-sm-6 col-md-4">
+												<div class="form-group">
+													<select class="form-select input-f input-select">
+														<option selected>Label</option>
+														<option>Label Option 1</option>
+														<option>Label Option 2</option>
+														<option>Label Option 3</option>
+														<option>Label Option 4</option>
+														<option>Label Option 5</option>
+													</select>
+												</div>
+											</div><!-- ./col -->
+											<div class="col-sm-6 col-md-4">
+												<div class="form-group">
+													<select class="form-select input-f input-select">
+														<option selected>Label</option>
+														<option>Label Option 1</option>
+														<option>Label Option 2</option>
+														<option>Label Option 3</option>
+														<option>Label Option 4</option>
+														<option>Label Option 5</option>
+													</select>
+												</div>
+											</div><!-- ./col -->
+											<div class="col-sm-6 col-md-4">
+												<div class="form-group">
+													<select class="form-select input-f input-select">
+														<option selected>Label</option>
+														<option>Label Option 1</option>
+														<option>Label Option 2</option>
+														<option>Label Option 3</option>
+														<option>Label Option 4</option>
+														<option>Label Option 5</option>
+													</select>
+												</div>
+											</div><!-- ./col -->
+											<div class="col-12">
+												<button type="submit" class="form-btn form-btn-full"> 
+													<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M15.6934 13.8184H14.7059L14.3559 13.4809C15.5809 12.0559 16.3184 10.2059 16.3184 8.19336C16.3184 3.70586 12.6809 0.0683594 8.19336 0.0683594C3.70586 0.0683594 0.0683594 3.70586 0.0683594 8.19336C0.0683594 12.6809 3.70586 16.3184 8.19336 16.3184C10.2059 16.3184 12.0559 15.5809 13.4809 14.3559L13.8184 14.7059V15.6934L20.0684 21.9309L21.9309 20.0684L15.6934 13.8184ZM8.19336 13.8184C5.08086 13.8184 2.56836 11.3059 2.56836 8.19336C2.56836 5.08086 5.08086 2.56836 8.19336 2.56836C11.3059 2.56836 13.8184 5.08086 13.8184 8.19336C13.8184 11.3059 11.3059 13.8184 8.19336 13.8184Z" fill="white"/>
+													</svg>
+													ESPLORA
+												</button>
+											</div>
+										</form><!-- ./form .row -->
+									</div>
+								</div>
+							</div>
+							<div class="btn-animate"></div>
+						</div>
+					</div>
+				</div>
+			</div><!-- ./row -->
 		</div> <!-- ./container -->
 	</section>
 	<!-- end hero section -->
