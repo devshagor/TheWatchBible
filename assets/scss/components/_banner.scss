@@ -94,6 +94,7 @@
 	.banner-form {
 		.form-input {
 			border-radius: 2px;
+			position: relative;
 			.input-f {
 				font-size: 20px;
 				color: #9F9F9F;
@@ -113,7 +114,7 @@
 			line-height: 31px;
 			text-transform: uppercase;
 			border: none;
-			/* color: var(--wsecondary); */
+			// color: var(--wsecondary);
 			border-radius: 2px;
 			padding: 12px 60px 16px;
 			background: var(--wsecondary);
@@ -156,6 +157,31 @@
 		animation: leftright 8s linear infinite alternate;
 	}
 }
+
+.tab-wrapper {
+	position: relative;
+	// &.tabone {
+	// 	max-width: 860px;
+	// }
+	
+	.btn-animate {
+		height: 80px;
+		width: 202px;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		background-color: var(--wsecondary);
+	}
+
+	// &.tabtwo {
+	// 	max-width: 100%;
+	// 	.btn-animate {
+	// 		width: 100%;
+	// 	}
+	// }
+}
+
 @media (min-width: 992px) {
 	.banner-sec { 
 		min-height: calc(100vh - 110px);

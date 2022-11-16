@@ -416,6 +416,7 @@ div[class*=col-] {
 }
 .banner-tab .banner-form .form-input {
   border-radius: 2px;
+  position: relative;
 }
 .banner-tab .banner-form .form-input .input-f {
   font-size: 20px;
@@ -435,7 +436,6 @@ div[class*=col-] {
   line-height: 31px;
   text-transform: uppercase;
   border: none;
-  /* color: var(--wsecondary); */
   border-radius: 2px;
   padding: 12px 60px 16px;
   background: var(--wsecondary);
@@ -475,6 +475,19 @@ div[class*=col-] {
   transition: all ease 0.3s;
   -webkit-animation: leftright 8s linear infinite alternate;
           animation: leftright 8s linear infinite alternate;
+}
+
+.tab-wrapper {
+  position: relative;
+}
+.tab-wrapper .btn-animate {
+  height: 80px;
+  width: 202px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: var(--wsecondary);
 }
 
 @media (min-width: 992px) {

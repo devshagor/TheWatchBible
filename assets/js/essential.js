@@ -9,5 +9,11 @@
 (function($) {
   "use strict";
 
+  // $(".nav1 .active").on("click",function(){
+  //   $(".tab-wrapper").toggleClass('tabone');
+  // })
+  // $(".nav2").on("click",function(){
+  //   $(".tab-wrapper").addClass('tabtwo');
+  // })
 
 })(jQuery);
