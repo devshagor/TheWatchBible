@@ -1,0 +1,56 @@
+// counter
+.counterup-area {
+	padding: 80px 0;
+}
+.test-img {
+	img {
+		height: 40px;
+		width: 40px;
+		border-radius: 50%;
+		margin-right: 15px;
+	}
+}
+.count {
+	font-size: 50px;
+	line-height: 65px;
+	margin: 0 0 5px;
+}
+.count-title {
+	font-size: 18px;
+	line-height: 30px;
+}
+.counter-widget{
+	&.style2 {
+		.count {
+			font-size: 72px;
+			line-height: 74px;
+			font-weight: 700;
+			color: #161851;
+		}
+	}
+}
+@media (min-width: 767px) {
+
+
+	.test-title {
+		font-size: 30px;
+		line-height: 36px;
+	}
+}
+@media (min-width: 991px) {
+	.counterup-area {
+		padding: 120px 0;
+	}
+	.count-title {
+		font-size: 24px;
+		line-height: 36px;
+	}
+	.counter-left {
+		padding-left: 30px;
+	}
+	.count {
+		font-size: 90px;
+		line-height: 105px;
+		margin: 0 0 5px;
+	}
+}

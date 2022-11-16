@@ -1,0 +1,22 @@
+.footer {
+  background-color: #14292C;
+  padding: 50px 0 30px;
+  .footer-logo {
+    display: inline-block;
+    max-width: 160px;
+  }
+}
+.footer-menu {
+  padding: 20px 0;
+  li {
+    display: inline-block;
+    margin-right: 30px;
+    a {
+      color: var(--white);
+      font-size: 14px;
+    }
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}
