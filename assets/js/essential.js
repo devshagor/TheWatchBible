@@ -16,4 +16,22 @@
   //   $(".tab-wrapper").addClass('tabtwo');
   // })
 
+
+  $('.tab-a').click(function(e){  
+    e.preventDefault();
+    $(".tab").addClass('tab-a');
+    $(".tab").removeClass('tab-b');
+    // $(".tab[data-id='"+$(this).attr('data-id')+"']").addClass("tab-active");
+    // $(".tab-a").removeClass('active-a');
+    // $(this).parent().find(".tab-a").addClass('active-a');
+  });
+  $('.tab-b').click(function(e){  
+    e.preventDefault();
+    $(".tab").removeClass('tab-a');
+    $(".tab").addClass('tab-b');
+    // $(".tab[data-id='"+$(this).attr('data-id')+"']").addClass("tab-active");
+    // $(".tab-a").removeClass('active-a');
+    // $(this).parent().find(".tab-a").addClass('active-a');
+  });
+
 })(jQuery);

@@ -108,35 +108,29 @@
 			border-radius: 0;
 			padding: 13px 20px;
 		}
-		.form-btn{
+		.form-btn {
 			font-size: 24px;
 			font-weight: 600;
 			line-height: 31px;
 			text-transform: uppercase;
 			border: none;
-			// color: var(--wsecondary);
 			border-radius: 2px;
 			padding: 12px 60px 16px;
 			background: var(--wsecondary);
 			color: #fff;
 			font-family: $antonio;
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			height: 80px;
+			transition: width .5s;
 			svg {
 				width: 24px;
 				height: 30px;
 				margin-top: -5px;
 			}
-			&.form-btn-full {
-				position: static;
+			&:hover {
 				width: 100%;
-			}
-			@media (min-width: 992px) {
-				position: absolute;
-				right: 0;
-				// top: auto;
-				// width: auto;
-				// display: inline-block;
-				bottom: 0;
-				height: 100%;
 			}
 		}
 	}

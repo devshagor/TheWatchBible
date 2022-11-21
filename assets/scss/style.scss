@@ -26,3 +26,72 @@
 @import "elements/space";
 
 @import "components/banner";
+
+
+.banner-tab{
+	background-color: #fff;
+	max-width: 800px;
+	position: relative;
+}
+
+.tab-menu ul{
+	margin: 0;
+	padding: 0;
+}
+.tab-menu ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+.tab-menu ul li a{
+	text-decoration: none;
+	color: rgba(0,0,0,0.4);
+	background-color: #b4cbc4;
+	padding: 7px 25px;
+	border-radius: 4px;
+}
+.tab-menu ul li a.active-a{
+	background-color: #588d7d;
+	color: #ffffff;
+}
+.tab{
+	// display: none;
+//    opacity: 0;
+}
+.tab h2{
+	color: rgba(0,0,0,.7);
+}
+.tab p{
+	color: rgba(0,0,0,0.6);
+	text-align: justify;
+}
+.form1,.form2 {
+	opacity: 1;
+	visibility: visible;
+	height: 100%;
+}
+.tab-a{
+   opacity: 1;
+   	.form2 {
+		opacity: 0;
+		visibility: hidden;
+		height: 0px;
+		overflow: hidden;
+	}
+}
+.tab-b {
+	.form1 {
+		display: none;
+		opacity: 0;
+		visibility: hidden;
+		height: 0px;
+		overflow: hidden;
+	}
+	.form-btn {
+		position: static !important;
+		width: 100%;
+		transition: width 6s;
+	}
+}
+.banner-form {
+    position: relative;
+}

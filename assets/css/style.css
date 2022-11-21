@@ -441,23 +441,20 @@ div[class*=col-] {
   background: var(--wsecondary);
   color: #fff;
   font-family: "Antonio", sans-serif;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 80px;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
 }
 .banner-tab .banner-form .form-btn svg {
   width: 24px;
   height: 30px;
   margin-top: -5px;
 }
-.banner-tab .banner-form .form-btn.form-btn-full {
-  position: static;
+.banner-tab .banner-form .form-btn:hover {
   width: 100%;
-}
-@media (min-width: 992px) {
-  .banner-tab .banner-form .form-btn {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 100%;
-  }
 }
 
 .animate-cap h2 {
@@ -532,5 +529,76 @@ div[class*=col-] {
   to {
     right: 0px;
   }
+}
+.banner-tab {
+  background-color: #fff;
+  max-width: 800px;
+  position: relative;
+}
+
+.tab-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.tab-menu ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.tab-menu ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.4);
+  background-color: #b4cbc4;
+  padding: 7px 25px;
+  border-radius: 4px;
+}
+
+.tab-menu ul li a.active-a {
+  background-color: #588d7d;
+  color: #ffffff;
+}
+
+.tab h2 {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.tab p {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: justify;
+}
+
+.form1, .form2 {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+
+.tab-a {
+  opacity: 1;
+}
+.tab-a .form2 {
+  opacity: 0;
+  visibility: hidden;
+  height: 0px;
+  overflow: hidden;
+}
+
+.tab-b .form1 {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  height: 0px;
+  overflow: hidden;
+}
+.tab-b .form-btn {
+  position: static !important;
+  width: 100%;
+  -webkit-transition: width 6s;
+  transition: width 6s;
+}
+
+.banner-form {
+  position: relative;
 }
 /*# sourceMappingURL=style.css.map */
